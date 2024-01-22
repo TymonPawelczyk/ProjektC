@@ -1,3 +1,3 @@
 # ProjektC
-#### Projekt Edytora Text'u
+### Projekt Edytora Text'u
 
