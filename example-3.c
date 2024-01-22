@@ -1,3 +1,4 @@
+// Import GTK
 #include <gtk/gtk.h>
 
 // Global variables for the entry widget and text attributes
