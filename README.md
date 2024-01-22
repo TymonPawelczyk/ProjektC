@@ -37,5 +37,6 @@ Projekt "Prosty Edytor Tekstu w języku C" jest częścią mojego zaliczenia na 
     ```
     ./example-3
     ```
-    LUB /n
+    LUB
+    
     Poprostu zrób to Double-Click'iem
