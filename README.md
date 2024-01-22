@@ -30,12 +30,12 @@ Projekt "Prosty Edytor Tekstu w języku C" jest częścią mojego zaliczenia na 
 
 2. Skompiluj program za pomocą kompilatora C:
     ```
-    gcc `pkg-config --cflags gtk+-3.0` -o example-3 example-3.c `pkg-config --libs gtk+-3.0`
+    gcc `pkg-config --cflags gtk+-3.0` -o textEditor textEditor.c `pkg-config --libs gtk+-3.0`
     ```
 
 3. Uruchom program:
     ```
-    ./example-3
+    ./textEditor
     ```
     
     Lub poprostu zrób to Double-Click'iem.
