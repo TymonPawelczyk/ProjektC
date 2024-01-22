@@ -1,5 +1,3 @@
-# ProjektC
-### Projekt Edytora Text'u
 # Prosty Edytor Tekstu w języku C
 
 ## Opis Projektu
