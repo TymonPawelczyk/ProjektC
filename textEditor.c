@@ -1,4 +1,3 @@
-// Import GTK
 #include <gtk/gtk.h>
 
 // Global variables for the entry widget and text attributes
@@ -11,17 +10,17 @@ save_to_file (GtkWidget *widget, gpointer user_data)
     GtkTextIter start, end;
     const gchar *text;
 
-    // Get the text buffer from the text view
+    
     buffer = gtk_text_view_get_buffer(GTK_TEXT_VIEW(entry));
 
-    // Get the start and end iterators of the buffer
+    
     gtk_text_buffer_get_start_iter(buffer, &start);
     gtk_text_buffer_get_end_iter(buffer, &end);
 
-    // Get the text from the buffer
+    
     text = gtk_text_buffer_get_text(buffer, &start, &end, FALSE);
 
-    // Prompt the user to select a file for saving
+    
     GtkWidget *dialog = gtk_file_chooser_dialog_new ("Save File",
                                                       GTK_WINDOW(user_data),
                                                       GTK_FILE_CHOOSER_ACTION_SAVE,
